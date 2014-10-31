@@ -1,0 +1,22 @@
+[
+{
+"modid": "eldritchprotection",
+"name": "Eldritch Protection",
+"description": "Protects from Warp",
+"version": "0.1",
+"mcversion": "1.7.10",
+"url": "",
+"updateUrl": "",
+"authorList": [
+"okyriosy"
+],
+"credits": "Flaxbeard", "Pahimar", "Vazkii", "okyriosy"
+"logoFile": "",
+"screenshots": [
+],
+"parent":"",
+"requiredMods": [ "Forge", "Baubles", "Thaumcraft" ],
+"dependencies": [ "Baubles", "Thaumcraft" ],
+"useDependencyInformation": true
+}
+]
