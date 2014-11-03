@@ -58,10 +58,10 @@ public final class ModRecipes {
 
 	private static void initArcaneRecipes() {
 
-
-        registerResearchItemShapeless(Reference.R_PURIFING_POWDER, Reference.R_SCENTED_LOCKET, new ItemStack(ModItems.purifingPowder), new AspectList().add(Aspect.AIR, 1).add(Aspect.WATER, 1),
-                new ItemStack(Items.redstone),
-                new ItemStack(ConfigItems.itemBathSalts));
+//
+//        registerResearchItemShapeless(Reference.R_PURIFING_POWDER, Reference.R_SCENTED_LOCKET, new ItemStack(ModItems.purifingPowder), new AspectList().add(Aspect.AIR, 1).add(Aspect.WATER, 1),
+//                new ItemStack(Items.redstone),
+//                new ItemStack(ConfigItems.itemBathSalts));
 
 
 //
@@ -92,6 +92,10 @@ public final class ModRecipes {
 	}
 
 	private static void initCrucibleRecipes() {
+
+        registerCrucibleRecipe(Reference.R_PURIFING_POWDER, Reference.R_SCENTED_LOCKET, new ItemStack(ModItems.purifingPowder), new ItemStack(ConfigItems.itemBathSalts), new AspectList().add(Aspect.AIR, 1).add(Aspect.WATER, 1));
+
+
 //		registerCrucibleRecipe("FLESHCURE","FLESHCURE", new ItemStack(Items.leather,2), new ItemStack(Items.rotten_flesh), new AspectList().add(Aspect.FLESH, 2).add(Aspect.CLOTH, 1));
 //		for (int i = 0; i<16; i++) {
 //			registerCrucibleRecipe("CHESTSEAL","CHESTSEAL", new ItemStack(ThaumicExploration.chestSeal,1,i), new ItemStack(ThaumicExploration.blankSeal,1,i),

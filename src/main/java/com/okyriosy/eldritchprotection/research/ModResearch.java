@@ -46,7 +46,7 @@ public final class ModResearch {
         research = new FauxResearchItem(Reference.R_FAUX_INFUSION,Reference.EP_CATEG,"INFUSION","ARTIFICE",5,-2,getOriginalItem("INFUSION","ARTIFICE")).registerResearchItem();
 
         research = new TXResearchItem(Reference.R_SCENTED_LOCKET,Reference.EP_CATEG, new AspectList().add(Aspect.WATER, 1).add(Aspect.AIR, 2).add(Aspect.HEAL, 3).add(Aspect.SOUL, 2).add(Aspect.MECHANISM, 2), 5, 0, 2,new ItemStack(ModItems.scentedLocket)).setParents(Reference.R_INTRO, Reference.R_FAUX_INFUSION).setParentsHidden("INFUSION").setConcealed().registerResearchItem();
-        research.setPages(new ResearchPage("1"), infusionPage(Reference.R_SCENTED_LOCKET), arcaneRecipePage(Reference.R_PURIFING_POWDER));
+        research.setPages(new ResearchPage("1"), infusionPage(Reference.R_SCENTED_LOCKET), cruciblePage(Reference.R_PURIFING_POWDER));
 
 //        research = new TXResearchItem("DISCOUNTRINGS", "TX", new AspectList().add(Aspect.MAGIC, 5).add(Aspect.CRYSTAL, 2), 1, 3, 1, new ItemStack(ThaumicExploration.discountRing,1,2)).setParents("BASICARTIFACE","TXBASICARTIFACE").setConcealed().setSecondary().registerResearchItem();
 //        ArrayList<IArcaneRecipe> scer = new ArrayList();
