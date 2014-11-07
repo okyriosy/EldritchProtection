@@ -15,7 +15,6 @@ public class Recipe {
 
 
 
-        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.coarseDirt, 8), "ddd", "dgd", "ddd", 's', "dirt", 'g', "gravel"));
 
 
         ItemStack helper1 = new ItemStack(ModItems.scentedLocket);
