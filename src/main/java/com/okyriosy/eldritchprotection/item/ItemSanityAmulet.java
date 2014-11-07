@@ -51,7 +51,7 @@ public class ItemSanityAmulet extends ItemBaubleEldritchProtection{
                 if (entityLivingBase instanceof EntityPlayer) {
                     if (!(entityLivingBase.isPotionActive(PotionWarpWard.instance.id))) {
 
-                        entityLivingBase.addPotionEffect(new PotionEffect(PotionWarpWard.instance.id, 20, 0, true));
+                        entityLivingBase.addPotionEffect(new PotionEffect(PotionWarpWard.instance.id, 40, 0, true));
 
                     }
                 }

@@ -19,6 +19,7 @@ public class Reference {
     public static final String R_INTRO = "EPINTRO";
     public static final String R_FAUX_SALTS = "EPFAUXSALTS";
     public static final String R_FAUX_INFUSION = "EPFAUXINFUSION";
+    public static final String R_FAUX_REVELATION = "EPFAUXREVELATION";
 
     //Research Category (the tab!) name
     public static final String EP_CATEG = "epcategory";

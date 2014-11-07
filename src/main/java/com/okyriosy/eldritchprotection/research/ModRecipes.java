@@ -93,7 +93,7 @@ public final class ModRecipes {
 
 	private static void initCrucibleRecipes() {
 
-        registerCrucibleRecipe(Reference.R_PURIFING_POWDER, Reference.R_SCENTED_LOCKET, new ItemStack(ModItems.purifingPowder), new ItemStack(ConfigItems.itemBathSalts), new AspectList().add(Aspect.AIR, 1).add(Aspect.WATER, 1));
+        registerCrucibleRecipe(Reference.R_SCENTED_LOCKET, Reference.R_PURIFING_POWDER, new ItemStack(ModItems.purifingPowder), new ItemStack(ConfigItems.itemBathSalts), new AspectList().add(Aspect.AIR, 1).add(Aspect.WATER, 1));
 
 
 //		registerCrucibleRecipe("FLESHCURE","FLESHCURE", new ItemStack(Items.leather,2), new ItemStack(Items.rotten_flesh), new AspectList().add(Aspect.FLESH, 2).add(Aspect.CLOTH, 1));
@@ -121,9 +121,9 @@ public final class ModRecipes {
 	
 
 	
-	private static void registerCrucibleRecipe(String name, String research, ItemStack output, ItemStack input, AspectList aspects) {
-	        CrucibleRecipe recipe = ThaumcraftApi.addCrucibleRecipe(name, output, input, aspects);
-	        ConfigResearch.recipes.put(research, recipe);
+	private static void registerCrucibleRecipe(String research, String name, ItemStack output, ItemStack input, AspectList aspects) {
+	        CrucibleRecipe recipe = ThaumcraftApi.addCrucibleRecipe(research, output, input, aspects);
+	        ConfigResearch.recipes.put(name, recipe);
 	}
 	
 	private static void registerResearchItemI(String name, Object output, int instability, AspectList aspects, ItemStack input, ItemStack... stuff) {
@@ -136,14 +136,14 @@ public final class ModRecipes {
         ConfigResearch.recipes.put(name, recipe);
 	}
 	
-	private static void registerResearchItemI(String name, String research, Object output, int instability, AspectList aspects, ItemStack input, ItemStack... stuff) {
-        InfusionRecipe recipe = ThaumcraftApi.addInfusionCraftingRecipe(name, output, instability, aspects, input, stuff);
-        ConfigResearch.recipes.put(research, recipe);
+	private static void registerResearchItemI(String research, String name, Object output, int instability, AspectList aspects, ItemStack input, ItemStack... stuff) {
+        InfusionRecipe recipe = ThaumcraftApi.addInfusionCraftingRecipe(research, output, instability, aspects, input, stuff);
+        ConfigResearch.recipes.put(name, recipe);
 	}
 	
-	private static void registerResearchItemIUI(String research, String name, Object output, int instability, AspectList aspects, ItemStack input, ItemStack... stuff) {
-        InfusionRecipe recipe = ThaumcraftApi.addInfusionCraftingRecipe(name, output, instability, aspects, input, stuff);
-        ConfigResearch.recipes.put(research, recipe);
+	private static void registerResearchItemIUI(String name, String research, Object output, int instability, AspectList aspects, ItemStack input, ItemStack... stuff) {
+        InfusionRecipe recipe = ThaumcraftApi.addInfusionCraftingRecipe(research, output, instability, aspects, input, stuff);
+        ConfigResearch.recipes.put(name, recipe);
 	}
 	
 	private static void registerResearchItemIE(String name, String research, Enchantment output, int instability, AspectList aspects, ItemStack... stuff) {
@@ -151,9 +151,9 @@ public final class ModRecipes {
         ConfigResearch.recipes.put(research, recipe);
 	}
 	
-	private static void registerResearchItemIU(String research, String name,Object[] objects, int instability, AspectList aspects, ItemStack input, ItemStack... stuff) {
-		InfusionRecipe recipe = ThaumcraftApi.addInfusionCraftingRecipe(name, objects, instability, aspects, input, stuff);	
-        ConfigResearch.recipes.put(research, recipe);
+	private static void registerResearchItemIU(String name, String research,Object[] objects, int instability, AspectList aspects, ItemStack input, ItemStack... stuff) {
+		InfusionRecipe recipe = ThaumcraftApi.addInfusionCraftingRecipe(research, objects, instability, aspects, input, stuff);
+        ConfigResearch.recipes.put(name, recipe);
 	}
 
 	private static void registerResearchItemC(String string, List<Object> asList) {
