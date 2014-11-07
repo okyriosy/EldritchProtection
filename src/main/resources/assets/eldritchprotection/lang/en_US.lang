@@ -10,13 +10,13 @@ tc.research_category.epcategory=Eldritch Protection
 
 
 te.name.EPINTRO=Eldritch Protection
-te.tag.EPINTRO=Protecting oneself from oneself
-te.text.EPINTRO.1=As you dwell on thaumic research, you realise that you are descending in the realm of Madness. While many would welcome the Corruption, you realise that you need to protect against it. And although you have devised the Purifying Salts, you know you need better ways to protect yourself.<BR><BR>You begin to brainstorm ideas, remember tales about the master thaumatourgists of Old and collect research materiel.<BR>For one thing you are sure:<BR>It's going to be a long, long road.
+te.tag.EPINTRO=Protect yourself before you wreck yourself!
+te.text.EPINTRO.1=As you dwell on thaumic research, you realize that you are slowly descending in the realm of madness. While many would welcome the corruption, you realize that you need to protect against it. Although you have devised the Purifying Bath Salts, you know you need better ways to protect yourself.<BR><BR>You begin to brainstorm ideas, remember dark tales about the master thaumatourgists of old who knew the ways of protection, and search for their research.<BR>For one thing you are sure,<BR>it's going to be a long and winding road.
 
 
 te.name.EPSCENTEDLOCKET=Scented Locket
 te.tag.EPSCENTEDLOCKET=Bath season is over!
-te.text.EPSCENTEDLOCKET.1=You have discovered a substance that functions similarly to the Purifying Bath Salts. Adding Redstone to the Salts, the mixture becomes more stable but more volatile. <BR> To use this substance, you have devised an amulet that releases the fumes little by little.<BR>Hopefully this means you don't have to bathe every so often.<BR> <BR>This amulet should also be able to be infused to provide shielding.
+te.text.EPSCENTEDLOCKET.1=You have discovered a substance that functions similarly to the Purifying Bath Salts. Adding Redstone to the Salts, the mixture becomes more stable but more volatile. <BR> To use this substance, you have devised an amulet that releases the fumes little by little.<BR>Hopefully this means you don't have to bathe so much, as your skin was getting quite wrinkly.<BR> <BR>After some more testing, you realize you can also infuse this amulet to provide extra shielding.
 
 descr.scentedLocket.empty.1=Empty. Craft or Right-click with
 descr.scentedLocket.empty.2=Purifying Powder to recharge
