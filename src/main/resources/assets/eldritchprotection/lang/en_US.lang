@@ -14,12 +14,12 @@ tc.research_category.epcategory=Eldritch Protection
 
 te.name.EPINTRO=Eldritch Protection
 te.tag.EPINTRO=Protect yourself before you wreck yourself
-te.text.EPINTRO.1=As you dwell on thaumic research, you realise that you are descending in the realm of Madness. While many would welcome the Corruption, you realise that you need to protect against it. And although you have devised the Purifying Salts, you know you need better ways to protect yourself.<BR><BR>You begin to brainstorm ideas, gather tales about the master thaumatourgists of Old and collect research materiel.<BR>For one thing you are sure:<BR>It's going to be a long, long road.
+te.text.EPINTRO.1=As you dwell on thaumic research, you realise that you are descending in the realm of Madness. While many would welcome the Corruption, you realise that you need to protect against it. And although you have devised the Purifying Salts, you know you need better ways to protect yourself.<BR><BR>You begin to brainstorm ideas, gather tales about the master thaumatourgists of Old and collect research materiel.<BR>For one thing you are sure,<BR>it's going to be a long and winding road.
 
 
 te.name.EPSCENTEDLOCKET=Scented Locket
 te.tag.EPSCENTEDLOCKET=Bath season is over!
-te.text.EPSCENTEDLOCKET.1=You have discovered a substance that functions similarly to the Purifying Bath Salts. Imbuing the salts withe Aer and Aqua, you create a mixture that is stabler but more volatile. <BR> To use this substance, you have devised an amulet that releases it's fumes little by little and protects you from Warp for a while.<BR>Hopefully this means you don't have to bathe every so often.<BR> <BR>This amulet should also be able to be infused to provide shielding.
+te.text.EPSCENTEDLOCKET.1=You have discovered a substance that functions similarly to the Purifying Bath Salts. Imbuing the salts withe Aer and Aqua, you create a mixture that is stabler but more volatile. <BR> To use this substance, you have devised an amulet that releases it's fumes little by little and protects you from Warp for a while.<BR>Hopefully this means you don't have to bathe so much, as your skin was getting quite wrinkly.<BR> <BR>After some more testing, you realize you can also infuse this amulet to provide extra shielding.
 
 descr.shiftkey=Press Shift for more info.
 descr.scentedLocket.empty.1=Empty. Craft or Right-click with
@@ -29,7 +29,7 @@ descr.purifyingPowder.1=Craft with or Right-click
 descr.purifyingPowder.2=a Scented Locket to recharge it
 descr.sanityAmulet.1=Protects you from your insanity.
 descr.sanityAmulet.2=Powered by your sanity.
-descr.recipeMechanism.1=A mechanism of an age bygone.
+descr.recipeMechanism.1=A mechanism from an age bygone.
 descr.recipeMechanism.shift.1=It is inscribed with runes relating
 descr.recipeMechanism.shift.2=to the lunar months, the time of day,
 descr.recipeMechanism.shift.3=the position of the planets and
